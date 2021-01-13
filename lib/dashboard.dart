@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
       body: Stack(
         children: <Widget>[
           Container(
-            height:50*.30,
+            height:150*.30,
             decoration: BoxDecoration(
                 image: DecorationImage(
                   alignment: Alignment.bottomLeft,
