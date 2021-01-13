@@ -50,6 +50,12 @@ flutter:
   assets:
     - assets/images/homescreen.jpg
     - assets/panda.jpg
+    - assets/bismillah.png
+    - assets/images/kafiroun/kafirun.jpg
+    - assets/images/naas/naas.jpg
+    - assets/images/falak/falak.jpg
+    - assets/images/ikhlas/ikhlas.jpg
+    - assets/images/contactus.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

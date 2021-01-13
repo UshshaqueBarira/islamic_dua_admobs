@@ -4,7 +4,7 @@ void main() {
   runApp(kafiroun());
 }
 
-class kafiroun extends StatelessWidget {
+/*class kafiroun extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,18 +16,18 @@ class kafiroun extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     );
   }
-}
+}*/
 
 // setup a stateful widget
-class MyHomePage extends StatefulWidget {
+class kafiroun extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<kafiroun> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
+    return MaterialApp(
+      home:Scaffold(
       // Design of the application
       appBar: AppBar(
           title:Text("Surah-al-kafiroun"),
@@ -57,6 +57,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ]
         ),
       ),
-    );
+    ));
   }
 }

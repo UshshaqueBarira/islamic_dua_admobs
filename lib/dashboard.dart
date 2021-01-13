@@ -17,18 +17,18 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     //var size= MediaQuery.of(context).size;
-    return Scaffold(
+    return MaterialApp(
+      home: Scaffold(
       body: Stack(
         children: <Widget>[
           Container(
-            height:150*.30,
+            height:130*.99,
             decoration: BoxDecoration(
                 image: DecorationImage(
-                  alignment: Alignment.bottomLeft,
-                  image: AssetImage('http://2.bp.blogspot.com/-RvFsuLcG2n4/UF4s9ZfteKI/AAAAAAAACVM/MHz9xj6HKjY/s1600/303676_367655289976365_1322647588_n.jpg'),fit: BoxFit.fill,
+                  alignment: Alignment.center,
+                  image: AssetImage('assets/bismillah.png'),fit: BoxFit.fill,
                 )
             ),
-
           ),
           SafeArea(
               child: Padding(
@@ -69,8 +69,8 @@ class _HomePageState extends State<HomePage> {
                                       child: Column(
                                           mainAxisAlignment: MainAxisAlignment.center,
                                           children: <Widget>[
-                                            Image.asset('',height: 100),
-                                            Text('Surah-al-Kafiroun',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87))
+                                            Image.asset('assets/images/kafiroun/kafirun.jpg',height: 100),
+                                            Text('सूरा अल काफिरून',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87))
                                           ]
                                       ),
                                     )
@@ -90,8 +90,9 @@ class _HomePageState extends State<HomePage> {
                                   child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: <Widget>[
+                                        Image.asset('assets/images/ikhlas/ikhlas.jpg',height: 100),
                                         //SvgPicture.network('https://www.flaticon.com/svg/static/icons/svg/3301/3301729.svg',height: 100),
-                                        Text('Ikhlas',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87))
+                                        Text('सूरा अल नास',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87))
                                       ]
                                   ),
                                 ),
@@ -109,8 +110,9 @@ class _HomePageState extends State<HomePage> {
                                   },child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: <Widget>[
+                                      Image.asset('assets/images/falak/falak.jpg',height:100),
                                       //SvgPicture.network('https://www.flaticon.com/svg/static/icons/svg/1040/1040216.svg',height: 120),
-                                      Text('Falak',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87),)
+                                      Text('सूरा अल फलक',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87),)
                                     ]
                                 ),
                                 ),
@@ -130,8 +132,9 @@ class _HomePageState extends State<HomePage> {
                                   child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: <Widget>[
+                                        Image.asset('assets/images/naas/naas.jpg',height:100),
                                         ///SvgPicture.network('https://www.flaticon.com/svg/static/icons/svg/1587/1587562.svg',height: 120),
-                                        Text('Naas',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87),)
+                                        Text('सूरा अल नास',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87),)
                                       ]
                                   ),
                                 ) ,
@@ -150,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                                 child: Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: <Widget>[
-                                      Image.asset('', height: 120),
+                                      Image.asset('assets/images/contactus.jpg', height: 120),
                                       Text('Contact Us',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black87),)
                                     ]
                                 ),
@@ -169,7 +172,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       ),
-    );
+    ));
   }
 }
 
