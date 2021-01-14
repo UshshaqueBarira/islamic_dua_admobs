@@ -15,8 +15,8 @@ class About_us extends StatelessWidget {
         body: ContactUs(
           logo: AssetImage('assets/panda.jpg'),
           email: 'barira.ushshaque@gmail.com',
-          companyName: 'BU',
-          phoneNumber: '8090289432',
+          companyName: 'BSD',
+          phoneNumber: '+91-8090289432',
           linkedinURL: 'https://www.linkedin.com/in/barira.ushshaque/',
           tagLine: 'Application Developer',
           instagram: 'barira_bsd',
