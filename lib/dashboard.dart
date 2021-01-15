@@ -6,14 +6,14 @@ import 'package:islamic_dua/naas.dart';
 import 'package:islamic_dua/falak.dart';
 
 void main(){
-  runApp(HomePage());
+  runApp(dashboardpage());
 }
-class HomePage extends StatefulWidget {
+class dashboardpage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
   }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<dashboardpage> {
   @override
   Widget build(BuildContext context) {
     //var size= MediaQuery.of(context).size;
