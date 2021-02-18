@@ -14,12 +14,12 @@ class About_us extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: ContactUs(
           logo: AssetImage('assets/panda.jpg'),
-          email: 'barira.ushshaque@gmail.com',
-          companyName: 'BSD',
-          phoneNumber: '+91-8090289432',
-          linkedinURL: 'https://www.linkedin.com/in/barira.ushshaque/',
+          email: 'bsdappdev@gmail.com',
+          companyName: 'BSD Application',
+          phoneNumber: '+91-809028****',
+          linkedinURL: 'www.linkedin.com/in/bsdApplicationDeveloper',
           tagLine: 'Application Developer',
-          instagram: 'barira_bsd',
+          instagram: 'Yet to connect',
         ),
       ),
     );

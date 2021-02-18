@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20054404041",
+    "project_id": "islamicdua-dc520",
+    "storage_bucket": "islamicdua-dc520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20054404041:android:b99216eee7f668fdbf5618",
+        "android_client_info": {
+          "package_name": "com.example.islamic_dua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20054404041-8kbidgojebqnk1vhpdl9hn5cedbbg1kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkVKwylq0INVxWI03XX7z-0Q3jmvW3O4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20054404041-8kbidgojebqnk1vhpdl9hn5cedbbg1kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
